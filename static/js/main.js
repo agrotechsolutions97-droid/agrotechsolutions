@@ -84,7 +84,7 @@ document.querySelectorAll('[data-tally-link]').forEach(link=>{
 if(tallyUrl){
   document.querySelectorAll('.form-card').forEach(card=>{
     if(!/not configured/i.test(card.textContent)) return;
-    card.innerHTML='<h2>Send an enquiry</h2><p>Share your name and phone number and our team will contact you.</p><a class="button" href="'+tallyUrl+'" target="_blank" rel="noopener noreferrer">Open secure enquiry form</a><p><small>By continuing, you will open our form provider in a new tab. Please read our <a href="/privacy-policy/">Privacy Policy</a>.</small></p>';
+    card.innerHTML='<h2>Send an enquiry</h2><p>Share your name and phone number and our team will contact you.</p><a class="button" href="'+tallyUrl+'" target="_blank" rel="noopener noreferrer">Open secure enquiry form</a><p><small>By continuing, you will open our form provider in a new tab. Please read our <a href="../privacy-policy/index.html">Privacy Policy</a>.</small></p>';
   });
 }
 
