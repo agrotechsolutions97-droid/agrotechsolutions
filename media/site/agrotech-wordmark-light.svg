@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="140" viewBox="0 0 700 140" role="img" aria-label="AGROTECH">
+  <defs>
+    <style>
+      .word { font: 700 64px 'Manrope', 'Segoe UI', Arial, sans-serif; letter-spacing: 2px; }
+      .mark { fill: #0d6a59; }
+      .word { fill: #0d6a59; }
+    </style>
+  </defs>
+  <g transform="translate(10 18)">
+    <path class="mark" d="M30 0 L56 28 L30 90 L4 28 Z"/>
+    <path d="M22 26 L30 12 L38 26 L30 41 Z" fill="#ffffff" opacity="0.9"/>
+  </g>
+  <text class="word" x="90" y="84">AGROTECH</text>
+</svg>
